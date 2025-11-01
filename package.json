@@ -1,0 +1,12 @@
+{
+  "name": "progress-tracker-root",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd server && npm start",
+    "postinstall": "cd server && npm install --no-audit --no-fund"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
