@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <div style="display:flex;gap:6px">
+            <button id="btn-login-google">Login with Google</button>
+            <button id="btn-login-microsoft">Login with Microsoft</button>
+            <button id="btn-logout" style="display:none">Logout</button>
+          </div>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <h1>Watch Progress</h1>
+        <div id="auth">
+          <button id="btn-login-google">Login with Google</button>
+          <button id="btn-login-microsoft">Login with Microsoft</button>
+          <button id="btn-logout" style="display:none">Logout</button>
+        </div>
+      </header>
+
+      <section id="list"></section>
+
+      <footer>
+        <button id="export-json">Export JSON</button>
+        <button id="export-csv">Export CSV</button>
+        <input id="backendUrl" placeholder="Backend URL (optional)" />
+        <button id="saveBackend">Save</button>
+      </footer>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
